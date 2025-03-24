@@ -76,4 +76,5 @@ p {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-200);
+  padding: 0 var(--spacing-200);
 }
