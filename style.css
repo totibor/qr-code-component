@@ -1,0 +1,79 @@
+:root {
+  /* Colors */
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+
+  /* Spacing */
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-500: 40px;
+
+  /* Typography */
+  --paragraph-size: 1rem;
+  --heading-size: 1.5rem;
+  --weight-regular: 400;
+  --weight-bold: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  background-color: var(--slate-300);
+  font-family: Outfit, Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+img {
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: var(--heading-size);
+  font-weight: var(--weight-bold);
+  color: var(--slate-900);
+  text-align: center;
+  line-height: 120%;
+}
+
+p {
+  font-size: var(--paragraph-size);
+  font-weight: var(--weight-regular);
+  color: var(--slate-500);
+  text-align: center;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+.content-area {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+  width: 320px;
+  height: 499px;
+  background-color: white;
+  /* padding: top | left and right | bottom */
+  padding: var(--spacing-200) var(--spacing-200) var(--spacing-500);
+  border-radius: 20px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-200);
+}
