@@ -17,7 +17,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./result.png)
+<img src="result.png" width=400>
 
 ## My process
 
